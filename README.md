@@ -1,4 +1,4 @@
-# geogridapi-io
+# GeoGridAPI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-geogridapi-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://geogridapi.io/
+GeoGridAPI provides a Geo‑grid rank tracking API and MCP for Google Maps. It returns the Google Business Profile rank for any point on the map in a single REST call, supporting webhooks and a credit‑based pricing model starting at €20. The service helps businesses monitor and improve their local search visibility across all map points.
+
+**Areas:** GeoGridAPI · Mapping · SEO · Business · API
+
+## GeoGridAPI on APIs.io
+
+Everything profiled for GeoGridAPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/geogridapi-io/](https://apis.io/providers/geogridapi-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [GeoGridAPI Account API](https://apis.io/apis/geogridapi-io/geogridapi-io-account-api/) — Credits.
+- [GeoGridAPI Batches API](https://apis.io/apis/geogridapi-io/geogridapi-io-batches-api/) — Several grids in one call.
+- [GeoGridAPI Grids API](https://apis.io/apis/geogridapi-io/geogridapi-io-grids-api/) — Run and read geo-grids.
+- [GeoGridAPI Listings API](https://apis.io/apis/geogridapi-io/geogridapi-io-listings-api/) — Find a Google Business Profile.
+- [GeoGridAPI Schedules API](https://apis.io/apis/geogridapi-io/geogridapi-io-schedules-api/) — Repeated grids.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [GeoGridAPI Agentic Access](https://apis.io/agentic-access/geogridapi-io/geogridapi-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Batch](https://apis.io/schemas/geogridapi-io/geogridapi-io-batch/)
+- [CreateScheduleRequest](https://apis.io/schemas/geogridapi-io/geogridapi-io-create-schedule-request/)
+- [Estimate](https://apis.io/schemas/geogridapi-io/geogridapi-io-estimate/)
+- [Grid](https://apis.io/schemas/geogridapi-io/geogridapi-io-grid/)
+- [History](https://apis.io/schemas/geogridapi-io/geogridapi-io-history/)
+- [Schedule](https://apis.io/schemas/geogridapi-io/geogridapi-io-schedule/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Geogridapi Io Context](https://apis.io/jsonld/geogridapi-io/geogridapi-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [GeoGridAPI API Rules](https://apis.io/rules/geogridapi-io/geogridapi-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [GeoGridAPI Authentication](https://apis.io/security/geogridapi-io/geogridapi-io-authentication/)
+- [GeoGridAPI Domain Security](https://apis.io/security/geogridapi-io/geogridapi-io-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://geogridapi.io/)
+- [Documentation](https://geogridapi.io/en/docs)
+- [API reference](https://geogridapi.io/llms.txt)
+- [Terms of service](https://geogridapi.io/en/legal/terms)
+- [Privacy policy](https://geogridapi.io/en/legal/privacy)
+- [GitHub](https://github.com/geogridapi)
+
+## API Evangelist rating
+
+**Kin Score 51.2** — developing · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 34.2 |
+
+**Agent readiness 58.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/geogridapi-io/](https://apis.io/providers/geogridapi-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GeoGridAPI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/geogridapi-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
